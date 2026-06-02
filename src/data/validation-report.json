@@ -1,0 +1,772 @@
+{
+  "totalQuestionsFound": 987,
+  "firstQuestionNumber": 1,
+  "lastQuestionNumber": 1000,
+  "missingQuestionNumbers": [
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    803
+  ],
+  "duplicateQuestionNumbers": [],
+  "questionsWithEmptyAnswers": [],
+  "questionsWithSuspiciouslyShortAnswers": [
+    368,
+    482,
+    492,
+    496,
+    523,
+    565,
+    608,
+    649,
+    656,
+    657,
+    701,
+    782,
+    789,
+    793,
+    804,
+    861,
+    928,
+    929,
+    930,
+    979,
+    983,
+    985,
+    986,
+    998
+  ],
+  "questionsWithUnusuallyLongAnswers": [
+    50,
+    441
+  ],
+  "questionsSpanningMultiplePages": [
+    27,
+    28,
+    29,
+    35,
+    42,
+    46,
+    50,
+    51,
+    52,
+    53,
+    55,
+    56,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    69,
+    70,
+    73,
+    75,
+    76,
+    86,
+    88,
+    91,
+    100,
+    106,
+    108,
+    112,
+    117,
+    122,
+    126,
+    128,
+    129,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    152,
+    153,
+    154,
+    156,
+    160,
+    162,
+    165,
+    166,
+    188,
+    189,
+    194,
+    196,
+    197,
+    198,
+    230,
+    232,
+    233,
+    234,
+    236,
+    237,
+    238,
+    239,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    268,
+    269,
+    270,
+    271,
+    272,
+    274,
+    275,
+    277,
+    290,
+    315,
+    316,
+    333,
+    351,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    366,
+    369,
+    371,
+    377,
+    382,
+    390,
+    392,
+    393,
+    394,
+    397,
+    398,
+    400,
+    406,
+    408,
+    410,
+    411,
+    427,
+    428,
+    430,
+    432,
+    433,
+    436,
+    438,
+    441,
+    442,
+    445,
+    447,
+    448,
+    450,
+    462,
+    463,
+    464,
+    469,
+    472,
+    475,
+    476,
+    489,
+    491,
+    493,
+    564,
+    575,
+    628,
+    637,
+    653,
+    672,
+    675,
+    684,
+    704,
+    706,
+    707,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    716,
+    718,
+    719,
+    720,
+    721,
+    722,
+    723,
+    724,
+    752,
+    753,
+    754,
+    756,
+    758,
+    768,
+    770,
+    772,
+    787,
+    798,
+    801,
+    806,
+    807,
+    815,
+    832,
+    847,
+    858,
+    877,
+    882,
+    886,
+    896,
+    926,
+    936,
+    938,
+    939,
+    940,
+    943,
+    945,
+    951,
+    965,
+    968,
+    970,
+    987
+  ],
+  "questionsWithExtractionWarnings": [
+    {
+      "number": 50,
+      "warnings": [
+        "Odpowiedź zawiera element graficzny w DOCX; tekst zachowano, obraz wymaga kontroli."
+      ]
+    },
+    {
+      "number": 71,
+      "warnings": [
+        "Odpowiedź zawiera element graficzny w DOCX; tekst zachowano, obraz wymaga kontroli."
+      ]
+    },
+    {
+      "number": 108,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 109,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 124,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 125,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 126,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 128,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 129,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 230,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 231,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 232,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 244,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 245,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 275,
+      "warnings": [
+        "Numer 275 nie ma kropki w PDF; wykryto go po układzie strony."
+      ]
+    },
+    {
+      "number": 334,
+      "warnings": [
+        "PDF zawiera wspólny nagłówek \"334-335.\"; wpis zachowano dla obu numerów i oznaczono do kontroli."
+      ]
+    },
+    {
+      "number": 335,
+      "warnings": [
+        "PDF zawiera wspólny nagłówek \"334-335.\"; wpis zachowano dla obu numerów i oznaczono do kontroli."
+      ]
+    },
+    {
+      "number": 368,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 393,
+      "warnings": [
+        "PDF opisuje pytania 393 i 394 jako wspólny wpis; odpowiedź wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 394,
+      "warnings": [
+        "PDF opisuje pytania 393 i 394 jako wspólny wpis; odpowiedź wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 441,
+      "warnings": [
+        "Odpowiedź jest nietypowo długa; sprawdź, czy nie połączono pytań."
+      ]
+    },
+    {
+      "number": 482,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 492,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 496,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 523,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 565,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 581,
+      "warnings": [
+        "Numer w PDF wygląda jak \"1581\", przypisano do oczekiwanego zakresu jako 581."
+      ]
+    },
+    {
+      "number": 608,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 649,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 656,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 657,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 701,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 772,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 773,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 774,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 775,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 776,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 777,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 778,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 779,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 780,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 782,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 787,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 788,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 789,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia.",
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 790,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 791,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 792,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 793,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 804,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 838,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 839,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 840,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 841,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 842,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 843,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 844,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 845,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 846,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 847,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 848,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 849,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 850,
+      "warnings": [
+        "Zakres źródłowy zawiera element graficzny; tekst wokół niego zachowano, ale obraz wymaga ręcznej kontroli."
+      ]
+    },
+    {
+      "number": 861,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 928,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 929,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 930,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 979,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 983,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 985,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 986,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    },
+    {
+      "number": 998,
+      "warnings": [
+        "Odpowiedź jest bardzo krótka; wymaga ręcznego sprawdzenia."
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "range": "1–100",
+      "number": 1,
+      "question": "Budowa i funkcje skóry: omów budowę skóry, w tym warstwy naskórka i skóry właściwej",
+      "answerPreview": "Budowa skóry\nSkóra zbudowana jest z trzech warstw:\n1. Naskórek (epidermis) – zewnętrzna warstwa, bez naczyń krwionośnych. Chroni przed czynnikami zewnętrznymi.\n2. Skóra właściwa (dermis) – środkowa, gruba warstwa, zawiera naczynia krwionośne, nerwy, kolagen i elastynę.\n3. Tkanka podskórna (subcutis) – najgłębsza, zawiera tkankę tłuszczową. Izoluje i amortyzu"
+    },
+    {
+      "range": "101–200",
+      "number": 101,
+      "question": "Jakie są wskazania i przeciwwskazania do zabiegów medycyny estetycznej?",
+      "answerPreview": "Wskazania:\n1. Estetyczne:\n• Redukcja zmarszczek mimicznych i statycznych.\n• Modelowanie konturu twarzy i ust.\n• Usuwanie przebarwień, blizn czy rozstępów.\n• Poprawa jędrności i nawilżenia skóry.\n2. Lecznicze:\n• Leczenie nadpotliwości.\n• Korekta asymetrii twarzy.\n• Terapia trądziku i blizn potrądzikowych.\nPrzeciwwskazania:\n1. Bezwzględne:\n• Ciąża i karmienie "
+    },
+    {
+      "range": "201–300",
+      "number": 201,
+      "question": "W jakich sytuacjach kosmetolog powinien zwrócić się o pomoc do lekarza lub innego specjalisty?",
+      "answerPreview": "Gdy na skórze lub stopach pojawiają się zmiany patologiczne (np. rany, infekcje, nowotwory,\nzmiany zapalne), które wymagają diagnostyki lub leczenia medycznego."
+    },
+    {
+      "range": "301–400",
+      "number": 301,
+      "question": "Czym jest promocja zdrowia?",
+      "answerPreview": "Promocja zdrowia to proces umożliwiający ludziom poprawę i utrzymanie zdrowia poprzez\nzmianę stylu życia, edukację zdrowotną i działania na rzecz poprawy środowiska."
+    },
+    {
+      "range": "401–500",
+      "number": 401,
+      "question": "Przepisy dotyczące bezpieczeństwa stosowania kosmetyków",
+      "answerPreview": "Rozporządzenie 1223/2009/WE:\nDefiniuje kosmetyki jako produkty przeznaczone do kontaktu z powierzchnią ciała w celu\nczyszczenia, ochrony lub utrzymania go w dobrym stanie.\nZakazuje stosowania substancji CMR (kancerogennych, mutagennych, reprotoksycznych).\nWymaga przygotowania raportu bezpieczeństwa kosmetyku przed wprowadzeniem go\nna rynek.\nNotyfikacja produ"
+    },
+    {
+      "range": "501–600",
+      "number": 501,
+      "question": "Wymień główne składniki olejków eterycznych.",
+      "answerPreview": "- Terpeny i terpenoidy - Związki aromatyczne\n- Estery - Ketony\n- Aldehydy - Fenole"
+    },
+    {
+      "range": "601–700",
+      "number": 601,
+      "question": "Wymień przynajmniej 2 lasery wykorzystywane do usuwania zbędnego owłosienia.",
+      "answerPreview": "- aser diodowy\n- laser aleksandrytowy"
+    },
+    {
+      "range": "701–800",
+      "number": 701,
+      "question": "Jaki lek podajemy przy wstrząsie uczuleniowym?",
+      "answerPreview": "ADRENALINA"
+    },
+    {
+      "range": "801–900",
+      "number": 801,
+      "question": "W jaki sposób wykonuje się mezotrapię igłową, na czym polegają i czym się od siebie różnią poszczególne techniki?",
+      "answerPreview": "Jak wykonuje się mezoterapię igłową?\n● Konsultacja: Na początku pacjent odbywa konsultację z lekarzem, który ocenia stan\nskóry i dobiera odpowiedni rodzaj substancji aktywnej do potrzeb pacjenta (np. kwas\nhialuronowy, witaminy, aminokwasy, peptydy, czy osocze bogatopłytkowe).\n● Przygotowanie skóry: Przed zabiegiem skóra pacjenta jest dokładnie oczyszczana, a"
+    },
+    {
+      "range": "901–1000",
+      "number": 901,
+      "question": "Czym jest bradykinezja?",
+      "answerPreview": "Bradykinezja to inaczej spowolnienie ruchowe. Jest to zespół objawów pojawiający się\nnajczęściej u osób starszych i utrudniający ich codzienne funkcjonowanie. Nasilenie zmian zwykle\nstopniowo się zwiększa, odbierając z czasem możliwość wykonywania nawet najprostszych\nczynności i ograniczając zdolność chorych do samoobsługi. Jest jednym z głównych objawów\nPar"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.sidebar {
+  @apply fixed inset-x-0 top-0 z-20 flex items-center gap-4 overflow-x-auto border-b border-pink-100 bg-white/95 px-4 py-3 shadow-sm backdrop-blur lg:inset-y-0 lg:left-0 lg:right-auto lg:w-72 lg:flex-col lg:items-stretch lg:overflow-visible lg:border-b-0 lg:border-r lg:px-5 lg:py-6;
+}
+
+.brand {
+  @apply flex shrink-0 items-center gap-3;
+}
+
+.brand-mark {
+  @apply grid h-10 w-10 place-items-center rounded-lg bg-pink-600 font-bold text-white;
+}
+
+.nav {
+  @apply flex gap-2 lg:mt-6 lg:flex-col;
+}
+
+.nav-button {
+  @apply flex min-w-max items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium text-slate-600 transition hover:bg-pink-50 hover:text-ink;
+}
+
+.nav-button.active {
+  @apply bg-pink-600 text-white hover:bg-pink-700 hover:text-white;
+}
+
+.main-shell {
+  @apply px-4 pb-10 pt-24 lg:ml-72 lg:px-8 lg:pt-8;
+}
+
+.page-title {
+  @apply text-3xl font-bold tracking-normal text-ink;
+}
+
+.page-subtitle,
+.muted {
+  @apply text-sm text-slate-500;
+}
+
+.panel,
+.metric,
+.study-card {
+  @apply rounded-lg border border-pink-100 bg-white shadow-soft;
+}
+
+.panel {
+  @apply p-5;
+}
+
+.study-card {
+  @apply mx-auto max-w-5xl p-6;
+}
+
+.metric {
+  @apply p-5;
+}
+
+.metric p {
+  @apply text-sm text-slate-500;
+}
+
+.metric strong {
+  @apply mt-2 block text-3xl font-bold;
+}
+
+.metric-gold {
+  @apply border-pink-200 bg-pink-50;
+}
+
+.section-title {
+  @apply text-lg font-semibold;
+}
+
+.progress {
+  @apply mt-4 h-3 overflow-hidden rounded-full bg-pink-100;
+}
+
+.progress span {
+  @apply block h-full rounded-full bg-pink-600 transition-all;
+}
+
+.mini-stat {
+  @apply rounded-lg border border-pink-100 bg-pink-50 p-3;
+}
+
+.mini-stat span {
+  @apply block text-xs text-slate-500;
+}
+
+.mini-stat strong {
+  @apply mt-1 block text-lg font-semibold;
+}
+
+.soft-row {
+  @apply flex items-center justify-between gap-3 rounded-lg bg-pink-50 px-3 py-2 text-sm;
+}
+
+.action-row,
+.rating-row {
+  @apply flex flex-wrap gap-2;
+}
+
+.primary,
+.secondary,
+.danger,
+.warning,
+.success,
+.icon-button {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2;
+}
+
+.primary {
+  @apply bg-pink-600 text-white hover:bg-pink-700;
+}
+
+.secondary,
+.icon-button {
+  @apply border border-pink-100 bg-white text-ink hover:bg-pink-50;
+}
+
+.danger {
+  @apply bg-rose-700 text-white hover:bg-rose-800;
+}
+
+.warning {
+  @apply bg-amber-600 text-white hover:bg-amber-700;
+}
+
+.success {
+  @apply bg-pink-600 text-white hover:bg-pink-700;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold;
+}
+
+.badge-muted {
+  @apply bg-pink-50 text-pink-900;
+}
+
+.badge-pink {
+  @apply bg-pink-100 text-pink-800;
+}
+
+.badge-gold {
+  @apply bg-amber-100 text-amber-800;
+}
+
+.badge-red {
+  @apply bg-rose-100 text-rose-800;
+}
+
+.field {
+  @apply flex flex-col gap-2 text-sm font-semibold;
+}
+
+.field input,
+.field select,
+.answer-input {
+  @apply rounded-lg border border-pink-100 bg-white px-3 py-2 text-sm font-normal text-ink outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-100;
+}
+
+.checks {
+  @apply grid gap-2 text-sm;
+}
+
+.checks label {
+  @apply flex items-center gap-2;
+}
+
+.question-text {
+  @apply my-5 text-2xl font-semibold leading-relaxed tracking-normal;
+}
+
+.answer-box {
+  @apply mt-5 rounded-lg border border-pink-100 bg-pink-50 p-4;
+}
+
+.answer-box h3 {
+  @apply mb-3 font-semibold;
+}
+
+.answer-input {
+  @apply min-h-36 w-full resize-y;
+}
+
+.preserved {
+  @apply whitespace-pre-wrap rounded-lg bg-white p-4 text-sm leading-relaxed text-slate-800;
+  font-family: inherit;
+}
+
+.warning-box {
+  @apply mt-4 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900;
+}
+
+.warning-box strong {
+  @apply mb-2 block;
+}
+
+.question-list {
+  @apply overflow-hidden rounded-lg border border-pink-100 bg-white shadow-soft;
+}
+
+.question-row {
+  @apply flex w-full items-start justify-between gap-4 border-b border-pink-50 p-4 text-left transition hover:bg-pink-50;
+}
+
+.question-row:last-child {
+  @apply border-b-0;
+}
+
+.question-row p {
+  @apply mt-2 text-sm text-slate-700;
+}
+
+.question-row small {
+  @apply mt-1 block text-xs text-slate-500;
+}
+
+.static-row {
+  @apply hover:bg-white;
+}
+
+.empty {
+  @apply rounded-lg border border-dashed border-slate-300 bg-white p-8 text-center text-sm text-slate-500;
+}
+
+.modal-backdrop {
+  @apply fixed inset-0 z-40 grid place-items-center bg-ink/50 p-4;
+}
+
+.modal {
+  @apply relative max-h-[88vh] w-full max-w-4xl overflow-auto rounded-lg bg-white p-6 shadow-soft;
+}
+
+.close-button {
+  @apply absolute right-4 top-4 text-slate-500 hover:text-ink;
+}
+
+@media (max-width: 720px) {
+  .question-row {
+    @apply flex-col;
+  }
+
+  .question-text {
+    @apply text-xl;
+  }
+}
