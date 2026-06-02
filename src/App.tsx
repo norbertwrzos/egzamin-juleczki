@@ -133,6 +133,22 @@ export default function App() {
     commitProgress(next);
   }
 
+  function resetChapterProgress(targetChapterId: string) {
+    const chapter = chapters.find((item) => item.id === targetChapterId) ?? chapters[0];
+    const targetQuestions = questionsForChapter(questions, targetChapterId);
+    const message = chapter.id === 'all'
+      ? 'Czy na pewno zresetować postęp ze wszystkich pytań?'
+      : `Czy na pewno zresetować postęp dla rozdziału „${chapter.name}” (${chapter.range})?`;
+
+    if (!confirm(message)) {
+      return;
+    }
+
+    const idsToReset = new Set(targetQuestions.map((question) => question.id));
+    const next = Object.fromEntries(Object.entries(progress).filter(([id]) => !idsToReset.has(id)));
+    commitProgress(next);
+  }
+
   const enriched = useMemo(
     () =>
       questions.map((question) => ({
@@ -310,6 +326,7 @@ export default function App() {
         {screen === 'chapters' && (
           <ChaptersScreen
             stats={chapterStats}
+            onReset={resetChapterProgress}
             onAction={(chapter, action) => {
               setChapterId(chapter.id);
               if (action === 'learn' || action === 'review') setScreen('flashcards');
@@ -473,9 +490,11 @@ function Dashboard({
 function ChaptersScreen({
   stats,
   onAction,
+  onReset,
 }: {
   stats: Array<Record<string, number | string | boolean | undefined>>;
   onAction: (chapter: { id: string }, action: 'learn' | 'review' | 'test' | 'mistakes') => void;
+  onReset: (chapterId: string) => void;
 }) {
   return (
     <section className="space-y-6">
@@ -503,6 +522,10 @@ function ChaptersScreen({
               <button className="secondary" onClick={() => onAction({ id: String(chapter.id) }, 'review')}>Powtórz</button>
               <button className="secondary" onClick={() => onAction({ id: String(chapter.id) }, 'test')}>Test</button>
               <button className="secondary" onClick={() => onAction({ id: String(chapter.id) }, 'mistakes')}>Błędy</button>
+              <button className="danger" onClick={() => onReset(String(chapter.id))}>
+                <RotateCcw size={16} />
+                Resetuj postęp
+              </button>
             </div>
           </div>
         ))}
