@@ -46,7 +46,6 @@
     998
   ],
   "questionsWithUnusuallyLongAnswers": [
-    50,
     441
   ],
   "questionsSpanningMultiplePages": [
@@ -273,12 +272,6 @@
     987
   ],
   "questionsWithExtractionWarnings": [
-    {
-      "number": 50,
-      "warnings": [
-        "Odpowiedź zawiera element graficzny w DOCX; tekst zachowano, obraz wymaga kontroli."
-      ]
-    },
     {
       "number": 71,
       "warnings": [
